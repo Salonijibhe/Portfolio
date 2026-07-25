@@ -5,6 +5,6 @@ export const contactsData = {
     github: 'https://github.com/Salonijibhe',
     linkedIn: 'https://www.linkedin.com/in/saloni-jibhe-4ba562260/',
     twitter: 'https://x.com/Saloni_0106',
-    // leetcode: 'https://leetcode.com/u/Jibhe_saloni/',
+    leetcode: 'https://leetcode.com/u/Jibhe_saloni/',
     devUsername: "Salonijibhe"
 } 
