@@ -92,13 +92,13 @@ export async function POST(request) {
 
     if (telegramSuccess && emailSuccess) {
       return NextResponse.json({
-        success: true,
+        success: false,
         message: 'Message and email sent successfully!',
       }, { status: 200 });
     }
 
     return NextResponse.json({
-      success: false,
+      success: true,
       message: 'Failed to send message or email.',
     }, { status: 500 });
   } catch (error) {
