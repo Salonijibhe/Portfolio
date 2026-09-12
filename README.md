@@ -310,7 +310,6 @@ Gained practical exposure to technical and engineering environments and develope
 ## 🏆 Achievements & Activities
 
 * 🥈 **1st Runner-Up** — ENTC Department Hackathon, 2024
-* 🥉 **3rd Place** — Event Horizon Technex
 * 👥 Managed a team of 5 during hackathon project development
 * 🎯 Guest Manager — I2IC T&P, VIIT
 * 👩‍💼 Joint Head — CodeChef Club Event Management
@@ -323,7 +322,6 @@ Gained practical exposure to technical and engineering environments and develope
 * IBM Full Stack Software Developer Professional Certificate
 * Fundamentals of Java — Coursera
 * AI-ML Virtual Internship
-* MS-CIT
 
 ---
 
