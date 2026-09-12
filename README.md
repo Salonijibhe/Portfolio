@@ -1,593 +1,461 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
-</p>
-
-<h1 align="center">Developer Portfolio</h1>
+# 👩‍💻 Saloni Jibhe — Developer Portfolio
 
 <p align="center">
-  <strong>A modern, responsive, and customizable portfolio template for developers and freelancers</strong>
+  <strong>Modern, responsive and professional portfolio showcasing my skills, projects, education and experience.</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Next.js-16.0.1-black?style=for-the-badge&logo=next.js" alt="Next.js 16.0.1">
-  <img src="https://img.shields.io/badge/React-19.2.0-blue?style=for-the-badge&logo=react" alt="React 19.2.0">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-4.x-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS 4">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License">
-</p>
-
-<p align="center">
-  <a href="#demo-movie_camera">Demo</a> •
-  <a href="#features-sparkles">Features</a> •
-  <a href="#installation-arrow_down">Installation</a> •
-  <a href="#usage-joystick">Usage</a> •
-  <a href="#deployment-rocket">Deployment</a> •
-  <a href="#tutorials-wrench">Tutorials</a>
+  <a href="https://github.com/Salonijibhe">
+    <img src="https://img.shields.io/badge/GitHub-SaloniJibhe-black?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/saloni-jibhe-4ba562260/">
+    <img src="https://img.shields.io/badge/LinkedIn-Saloni%20Jibhe-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
+  <img src="https://img.shields.io/badge/Next.js-TypeScript-black?style=for-the-badge&logo=next.js" alt="Next.js">
+  <img src="https://img.shields.io/badge/React-TypeScript-blue?style=for-the-badge&logo=react" alt="React">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4.x-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS">
 </p>
 
 ---
 
-## Overview
-
-A professional portfolio template built with **Next.js 16**, **React 19**, and **Tailwind CSS 4**. Features a modern App Router architecture, server components, and data-driven configuration for easy customization.
-
----
-
-## Demo :movie_camera:
+## 🌐 Live Portfolio
 
 <p align="center">
-  <img src="./public/image/screen.png" alt="Portfolio Screenshot" width="100%">
-</p>
-
-<p align="center">
-  <a href="https://abusaid.netlify.app/" target="_blank">
-    <strong>🚀 View Live Demo</strong>
+  <a href="https://vercel.com/salonijibhe-b5caabb8/portfolio-3aq5" target="_blank">
+    <strong>🚀 View Portfolio on Vercel</strong>
   </a>
 </p>
 
----
-
-## Features :sparkles:
-
-- ✅ **Cutting-Edge Tech Stack**: Built with Next.js 16, React 19, and Tailwind CSS 4
-- ✅ **Fully Responsive**: Optimized for all devices and screen sizes
-- ✅ **SEO Optimized**: Better visibility on search engines with Next.js metadata API
-- ✅ **Blazing Fast Performance**: Leverages Next.js 16 server components and streaming
-- ✅ **App Router**: Uses the modern Next.js App Router architecture
-- ✅ **Easy Customization**: Simple data-driven configuration
-- ✅ **Contact Form**: Integrated email and Telegram notifications
-- ✅ **Blog Integration**: Automatically fetch posts from dev.to
-- ✅ **Dark Theme**: Beautiful gradient design with Lottie animations
-- ✅ **Docker Support**: Easy containerized deployment
-- ✅ **Google Analytics**: Track visitor insights with GTM support
 
 ---
 
-## Next.js 16 Features Used :rocket:
+## 📌 Overview
 
-This portfolio leverages the latest Next.js 16 and React 19 capabilities:
+This is my personal developer portfolio built to showcase my **technical skills, projects, education, certifications, internships and professional experience**.
 
-| Feature                  | Benefit                                                      |
-| ------------------------ | ------------------------------------------------------------ |
-| **App Router**           | Modern routing with layouts and nested routes                |
-| **Server Components**    | Improved performance with zero JavaScript for static content |
-| **Server Actions**       | Simplified form handling in contact page                     |
-| **Metadata API**         | Enhanced SEO with type-safe metadata                         |
-| **Image Optimization**   | Automatic image optimization with `next/image`               |
-| **Font Optimization**    | Automatic font loading with `next/font`                      |
-| **Streaming & Suspense** | Better loading states and progressive rendering              |
-| **React 19 Features**    | Actions, use hook, and improved hydration                    |
+The portfolio is designed with a clean, responsive interface and highlights my journey as a **B.Tech Electronics & Telecommunication Engineering graduate transitioning into software development**.
 
 ---
 
-## Sections :bookmark:
+## ✨ Features
 
-| Section           | Description                                         |
-| ----------------- | --------------------------------------------------- |
-| 🦸 **Hero**       | Eye-catching introduction with animated elements    |
-| 👤 **About Me**   | Personal information and professional summary       |
-| 💼 **Experience** | Work history and professional accomplishments       |
-| 🛠️ **Skills**     | Technical skills with animated marquee display      |
-| 🚀 **Projects**   | Showcase your best work with descriptions and links |
-| 🎓 **Education**  | Academic background and certifications              |
-| 📝 **Blog**       | Latest articles from dev.to (auto-fetched)          |
-| 📧 **Contact**    | Get in touch form with email/Telegram integration   |
-
----
-
-## Table of Contents :scroll:
-
-- [Overview](#overview)
-- [Demo](#demo-movie_camera)
-- [Features](#features-sparkles)
-- [Sections](#sections-bookmark)
-- [Tech Stack](#tech-stack-computer)
-- [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
-- [Deployment](#deployment-rocket)
-- [Tutorials](#tutorials-wrench)
-  - [Gmail App Password Setup](#gmail-app-password-setup)
-  - [Create a Telegram Bot](#create-a-telegram-bot)
-  - [Fetching Blog from dev.to](#fetching-blog-from-devto)
-- [Packages Used](#packages-used-package)
-- [Contributing](#contributing-handshake)
-- [License](#license-page_with_curl)
-- [Support](#support-coffee)
+* ✅ Modern and responsive portfolio design
+* ✅ Mobile, tablet and desktop friendly
+* ✅ Personal introduction and professional summary
+* ✅ Technical skills section
+* ✅ Projects showcase with project details
+* ✅ Education and certifications
+* ✅ Internship and experience details
+* ✅ GitHub and LinkedIn integration
+* ✅ Contact section
+* ✅ Smooth and user-friendly navigation
+* ✅ Deployed using Vercel
+* ✅ Built using modern React and Next.js technologies
 
 ---
 
-## Tech Stack :computer:
+## 👩‍💻 About Me
 
-| Technology       | Version | Purpose                                   |
-| ---------------- | ------- | ----------------------------------------- |
-| **Next.js**      | 16.0.1  | React framework with App Router           |
-| **React**        | 19.2.0  | UI component library with latest features |
-| **Tailwind CSS** | 4.x     | Utility-first CSS framework               |
-| **SASS**         | Latest  | CSS preprocessor                          |
-| **Lottie**       | Latest  | Lightweight animations                    |
-| **Nodemailer**   | Latest  | Email sending functionality               |
-| **Axios**        | Latest  | HTTP client for API requests              |
-| **Docker**       | -       | Containerization platform                 |
+Hi, I'm **Saloni Jibhe**, a B.Tech graduate in **Electronics & Telecommunication Engineering** from **Vishwakarma Institute of Information Technology (VIIT), Pune**.
+
+I am a fresher interested in **Software Development, Frontend Development and Full-Stack Development**.
+
+I enjoy building web applications using modern technologies such as **React, Next.js, TypeScript, JavaScript, Node.js, PostgreSQL and Prisma**.
+
+I also have experience with **Java, Python, SQL, embedded systems and IoT**, which gives me a combination of software and electronics knowledge.
 
 ---
 
-## Installation :arrow_down:
+## 🛠️ Tech Stack
 
-### Prerequisites
+### 💻 Programming Languages
 
-Before you begin, ensure you have the following installed on your machine:
+* Java
+* Python
+* JavaScript
+* TypeScript
+* SQL
+* C
+* C++
+* Embedded C
 
-| Tool                   | Minimum Version | Download Link                               |
-| ---------------------- | --------------- | ------------------------------------------- |
-| **Node.js**            | v18.17.0+       | [Download](https://nodejs.org/en/download/) |
-| **Git**                | Latest          | [Download](https://git-scm.com/downloads)   |
-| **pnpm** (recommended) | Latest          | [Install](https://pnpm.io/installation)     |
+### 🌐 Frontend Development
 
-> **Note**: Next.js 16 requires Node.js 18.17 or later. Node.js 20+ is recommended for optimal performance.
+* HTML5
+* CSS3
+* JavaScript
+* TypeScript
+* React.js
+* Next.js
+* Tailwind CSS
 
-#### Verify Installation
+### ⚙️ Backend Development
 
-Check your installations with these commands:
+* Node.js
+* REST APIs
+* Next.js API Routes
+* JWT Authentication
 
-```bash
-node --version
-git --version
-pnpm --version  # or npm --version
-```
+### 🗄️ Databases
 
----
+* PostgreSQL
+* MySQL
+* MongoDB
+* Prisma
+* Neon Database
 
-## Getting Started :dart:
+### 🔧 Tools & Platforms
 
-### 1. Fork and Clone the Repository
+* Git
+* GitHub
+* VS Code
+* Vercel
+* JIRA
+* Eclipse
+* Google Colab
 
-```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/developer-portfolio.git
-cd developer-portfolio
-```
+### 📊 Data & Machine Learning
 
-### 2. Install Dependencies
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+* Basic Power BI
+* Basic Tableau
 
-```bash
-# Using pnpm (recommended)
-pnpm install
+### 🔌 Embedded & IoT
 
-# Using npm
-npm install
+* 8051 Microcontroller
+* ESP8266
+* Arduino
+* PCB Design
+* Sensors
+* ThingSpeak
+* Serial Communication
 
-# Using yarn
-yarn install
-```
+### 🤖 AI Development Tools
 
-### 3. Set Up Environment Variables
-
-```bash
-cp .env.example .env
-```
-
-Edit the `.env` file with your values (see [Usage](#usage-joystick) section).
-
-### 4. Run the Development Server
-
-```bash
-pnpm dev
-# or
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-### 🐳 Docker Deployment (Alternative)
-
-#### Option 1: Using Docker Compose (Recommended)
-
-```bash
-docker-compose up --build
-
-# Run in detached mode
-docker-compose up -d --build
-
-# Stop
-docker-compose down
-```
-
-#### Option 2: Using Docker Directly
-
-**For Development:**
-
-```bash
-# Build the development image
-docker build -t developer-portfolio:dev -f Dockerfile.dev .
-
-# Run the container
-docker run -p 3000:3000 --name portfolio-dev developer-portfolio:dev
-
-# Stop and remove container
-docker stop portfolio-dev && docker rm portfolio-dev
-```
-
-**For Production:**
-
-```bash
-# Build the production image
-docker build -t developer-portfolio:prod -f Dockerfile.prod .
-
-# Run the production container
-docker run -p 3000:3000 --name portfolio-prod developer-portfolio:prod
-```
+* Cursor
+* Vercel v0
+* Rovo Dev
 
 ---
 
-## Usage :joystick:
+## 🚀 Featured Projects
 
-### Environment Variables Configuration
+### 1. Portfolio Website
 
-Create a `.env` file in the root directory with the following variables:
+A responsive personal portfolio website showcasing my skills, projects, education, certifications and experience.
 
-```env
-# Google Tag Manager (Optional - for analytics)
-NEXT_PUBLIC_GTM=GTM-XXXXXXX
+**Technologies:**
+Next.js, TypeScript, React, Tailwind CSS, PostgreSQL, Prisma, Vercel
 
-# Your deployed app URL
-NEXT_PUBLIC_APP_URL=https://your-domain.com
+**Highlights:**
 
-# Telegram Bot Configuration (for contact form notifications)
-TELEGRAM_BOT_TOKEN=your_bot_token_here
-TELEGRAM_CHAT_ID=your_chat_id_here
-
-# Gmail Configuration (for contact form emails)
-GMAIL_PASSKEY=your_gmail_app_password
-EMAIL_ADDRESS=your_email@gmail.com
-```
-
-#### Variable Descriptions:
-
-| Variable              | Required | Description                                  |
-| --------------------- | -------- | -------------------------------------------- |
-| `NEXT_PUBLIC_GTM`     | No       | Google Tag Manager ID for analytics tracking |
-| `NEXT_PUBLIC_APP_URL` | Yes      | Your portfolio's public URL                  |
-| `TELEGRAM_BOT_TOKEN`  | No       | Token for Telegram bot notifications         |
-| `TELEGRAM_CHAT_ID`    | No       | Your Telegram chat ID for receiving messages |
-| `GMAIL_PASSKEY`       | No       | Gmail app password for email notifications   |
-| `EMAIL_ADDRESS`       | No       | Your Gmail address for sending emails        |
-
-> **Note**: Contact form features require either Telegram or Gmail configuration (or both).
+* Responsive portfolio interface
+* Project showcase
+* Skills and education sections
+* Contact functionality
+* Vercel deployment
 
 ---
 
-### Customize Your Portfolio Data
+### 2. Ladoozi — Homemade Ladoo E-commerce Platform
 
-All portfolio content is managed through data files in the `utils/data/` folder:
+A full-stack e-commerce platform developed for selling homemade ladoos made with desi ghee and jaggery.
 
-#### 📝 Personal Information (`personal-data.js`)
-
-```javascript
-export const personalData = {
-  name: "YOUR NAME",
-  profile: "/profile.png", // Path to your profile image
-  designation: "Software Developer", // Your job title
-  description: "Your bio and introduction...", // About yourself
-  email: "your.email@example.com",
-  phone: "+1234567890",
-  address: "City, Country",
-  github: "https://github.com/yourusername",
-  facebook: "https://www.facebook.com/yourprofile",
-  linkedIn: "https://www.linkedin.com/in/yourprofile",
-  twitter: "https://twitter.com/yourusername",
-  stackOverflow: "https://stackoverflow.com/users/your-id",
-  leetcode: "https://leetcode.com/yourusername/",
-  devUsername: "yourusername", // dev.to username for blog integration
-  resume: "https://link-to-your-resume.pdf",
-};
-```
-
-#### 💼 Additional Data Files
-
-| File               | Purpose                                        |
-| ------------------ | ---------------------------------------------- |
-| `experience.js`    | Your work experience and job history           |
-| `projects-data.js` | Portfolio projects with descriptions and links |
-| `skills.js`        | Technical skills and competencies              |
-| `educations.js`    | Academic background and certifications         |
-| `contactsData.js`  | Contact form configuration                     |
-
-#### 🎨 Adding Your Profile Image
-
-Place your profile picture in the `public/` directory and update the `profile` field in `personal-data.js`:
-
-```javascript
-profile: "/your-image-name.png"; // or .jpg, .webp
-```
-
----
-
-## Deployment :rocket:
-
-### 🚀 Deploy to Vercel (Recommended)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/said7388/developer-portfolio)
-
-**Manual Deployment:**
-
-1. Sign up at [Vercel](https://vercel.com/)
-2. Import your GitHub repository
-3. Add environment variables in **Settings** → **Environment Variables**
-4. Deploy
+**Technologies:**
+Next.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL, Prisma, JWT, Vercel
 
 **Features:**
 
-- Native Next.js 16 support
-- Automatic deployments on push
-- Preview deployments for PRs
-- Edge runtime support
-- Global CDN and free SSL
+* Product and category management
+* Admin dashboard
+* Product management
+* Order management
+* Coupon management
+* Customer messages
+* JWT authentication
+* UPI/QR payment confirmation
+* Image management
+* Responsive design
+
+🌐 **Live Website:**
+https://ladoozi.com
 
 ---
 
-### 🌐 Deploy to Netlify
+### 3. Academic Portfolio Application with Admin Dashboard
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/said7388/developer-portfolio)
+A dynamic academic portfolio application designed to manage and display academic and professional information.
 
-**Manual Deployment:**
+**Technologies:**
+Next.js, TypeScript, Tailwind CSS, PostgreSQL, Prisma, JWT, Vercel
 
-1. Sign up at [Netlify](https://www.netlify.com/)
-2. Import your GitHub repository
-3. Build command: `npm run build`
-4. Publish directory: `.next`
-5. Add environment variables in **Site Settings** → **Environment**
+**Features:**
+
+* Admin authentication
+* Project management
+* Skills management
+* Certifications
+* Dynamic content management
+* Responsive UI
+* Server-side rendering
 
 ---
 
-### 🐳 Deploy with Docker
+### 4. SmartCommuteX
+
+A carpooling and smart transportation solution developed during a VIIT hackathon.
+
+**Technologies:**
+Next.js, PostgreSQL, TensorFlow, Maps integration
+
+**Achievement:**
+🏆 1st Runner-Up — ENTC Department Hackathon 2024
+
+---
+
+### 5. Air Quality Index Prediction
+
+A machine learning project for predicting air quality using environmental parameters.
+
+**Technologies:**
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, Google Colab
+
+**Models explored:**
+
+* Random Forest
+* Support Vector Machine
+* Linear Regression
+* Decision Tree
+* K-Nearest Neighbors
+
+---
+
+### 6. Portfolio Generator
+
+A web application that allows users to generate personal portfolios using predefined templates.
+
+**Technologies:**
+Next.js, React, TypeScript, Tailwind CSS
+
+**Features:**
+
+* Multiple portfolio templates
+* Dynamic content
+* Responsive design
+* Easy customization
+
+---
+
+### 7. 8051 RPM Monitor
+
+An embedded systems project for monitoring motor RPM using an 8051 microcontroller.
+
+**Technologies:**
+8051 Microcontroller, Embedded C, Sensors, Keil
+
+---
+
+## 🎓 Education
+
+### Vishwakarma Institute of Information Technology, Pune
+
+**B.Tech — Electronics & Telecommunication Engineering**
+
+**CGPA:** 8.06
+
+---
+
+### Jawahar Junior College, Nagpur
+
+**HSC — 2021**
+
+**Percentage:** 86.67%
+
+---
+
+## 💼 Experience
+
+### Full-Stack Development Intern
+
+**Creator Research Pvt. Ltd., Pune**
+
+**2025**
+
+Worked on web development using modern full-stack technologies including:
+
+* Next.js
+* TypeScript
+* React
+* Tailwind CSS
+* PostgreSQL
+* Prisma
+* GitHub
+* Vercel
+
+Contributed to developing and improving web applications and administrative functionality.
+
+---
+
+### Internship — 9BRD Indian Air Force
+
+**2024**
+
+Gained practical exposure to technical and engineering environments and developed an understanding of professional work practices.
+
+---
+
+## 🏆 Achievements & Activities
+
+* 🥈 **1st Runner-Up** — ENTC Department Hackathon, 2024
+* 🥉 **3rd Place** — Event Horizon Technex
+* 👥 Managed a team of 5 during hackathon project development
+* 🎯 Guest Manager — I2IC T&P, VIIT
+* 👩‍💼 Joint Head — CodeChef Club Event Management
+* 🤝 Volunteer — Regional Industry Summit with 300+ check-ins
+
+---
+
+## 📜 Certifications
+
+* IBM Full Stack Software Developer Professional Certificate
+* Fundamentals of Java — Coursera
+* AI-ML Virtual Internship
+* MS-CIT
+
+---
+
+## 📂 Portfolio Sections
+
+| Section               | Description                                |
+| --------------------- | ------------------------------------------ |
+| 🦸 **Hero**           | Introduction and professional headline     |
+| 👩‍💻 **About Me**    | Personal and professional summary          |
+| 🛠️ **Skills**        | Technical skills and technologies          |
+| 🚀 **Projects**       | Selected software and engineering projects |
+| 💼 **Experience**     | Internship and professional experience     |
+| 🎓 **Education**      | Academic background                        |
+| 📜 **Certifications** | Professional certifications                |
+| 🏆 **Achievements**   | Hackathons and activities                  |
+| 📧 **Contact**        | Contact and social links                   |
+
+---
+
+## ⚙️ Installation
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+* Node.js
+* Git
+* npm
+
+### Clone the Repository
 
 ```bash
-# Build production image
-docker build -t developer-portfolio:prod -f Dockerfile.prod .
-
-# Run
-docker run -d -p 80:3000 --name portfolio developer-portfolio:prod
-
-# Or use Docker Compose
-docker-compose -f docker-compose.prod.yml up -d
+git clone https://github.com/Salonijibhe/portfolio.git
+cd portfolio
 ```
 
----
-
-## Tutorials :wrench:
-
-### 📧 Gmail App Password Setup
-
-1. Go to [https://myaccount.google.com/](https://myaccount.google.com/)
-2. Navigate to **Security** → **2-Step Verification** (enable if not already)
-3. Go to **Security** → **App Passwords**
-4. Select app: **Mail**, device: **Other (Custom name)**
-5. Generate and copy the 16-character password
-6. Add to `.env` file:
-
-```env
-GMAIL_PASSKEY=abcd efgh ijkl mnop
-EMAIL_ADDRESS=your.email@gmail.com
-```
-
----
-
-### 🤖 Create a Telegram Bot
-
-1. Open Telegram and search for `@BotFather`
-2. Send `/newbot` command
-3. Set bot name and username (must end with `bot`)
-4. Copy the bot token
-5. Send a message to your bot
-6. Get chat ID from: `https://api.telegram.org/bot<BOT_TOKEN>/getUpdates`
-7. Add to `.env` file:
-
-```env
-TELEGRAM_BOT_TOKEN=123456789:ABCdefGHIjklMNOpqrsTUVwxyz
-TELEGRAM_CHAT_ID=123456789
-```
-
----
-
-### 📝 Fetching Blog from dev.to
-
-1. Create a [dev.to](https://dev.to/) account
-2. Open `utils/data/personal-data.js`
-3. Set your dev.to username:
-
-```javascript
-export const personalData = {
-  // ... other fields
-  devUsername: "yourusername",
-};
-```
-
-The portfolio automatically fetches and displays your latest public articles. No API key required.
-
----
-
-## Packages Used :package:
-
-### Core Dependencies
-
-| Package         | Version | Purpose                                                      |
-| --------------- | ------- | ------------------------------------------------------------ |
-| **next**        | ^16.0.1 | Latest React framework with App Router and Server Components |
-| **react**       | ^19.2.0 | JavaScript library with improved concurrent rendering        |
-| **react-dom**   | ^19.2.0 | React package for working with the DOM                       |
-| **tailwindcss** | ^4.1.16 | Modern utility-first CSS framework                           |
-| **sass**        | Latest  | CSS preprocessor for styling                                 |
-
-### UI & Animations
-
-| Package                | Purpose                                    |
-| ---------------------- | ------------------------------------------ |
-| **lottie-react**       | Lightweight animations with Lottie files   |
-| **react-fast-marquee** | Smooth scrolling marquee component         |
-| **react-icons**        | Popular icon library with easy integration |
-| **react-toastify**     | Beautiful notification toasts              |
-
-### Functionality
-
-| Package                    | Purpose                           |
-| -------------------------- | --------------------------------- |
-| **axios**                  | Promise-based HTTP client         |
-| **nodemailer**             | Email sending functionality       |
-| **@emailjs/browser**       | Client-side email service         |
-| **react-google-recaptcha** | Google reCAPTCHA integration      |
-| **sharp**                  | High-performance image processing |
-| **@next/third-parties**    | Third-party script optimization   |
-
----
-
-## Troubleshooting :wrench:
-
-### Common Issues and Solutions
-
-<details>
-<summary><strong>❌ "next is not recognized as an internal or external command"</strong></summary>
-
-**Solution:**
+### Install Dependencies
 
 ```bash
-# Option 1: Install Next.js globally
-npm install -g next
+npm install
+```
 
-# Option 2: Use npx (recommended)
-npx next dev
+### Run Development Server
 
-# Option 3: Use package manager scripts
+```bash
 npm run dev
 ```
 
-</details>
+Open:
 
-<details>
-<summary><strong>❌ Port 3000 is already in use</strong></summary>
-
-**Solution:**
-
-```bash
-# Find and kill the process using port 3000
-# On macOS/Linux:
-lsof -ti:3000 | xargs kill -9
-
-# On Windows:
-netstat -ano | findstr :3000
-taskkill /PID <PID> /F
-
-# Or use a different port:
-PORT=3001 npm run dev
+```text
+http://localhost:3000
 ```
 
-</details>
+---
 
-<details>
-<summary><strong>❌ Module not found or dependency errors</strong></summary>
+## 🔐 Environment Variables
 
-**Solution:**
+If the project requires environment variables, create a `.env.local` file in the root directory.
 
-```bash
-# Clear cache and reinstall dependencies
-rm -rf node_modules package-lock.json
-npm cache clean --force
-npm install
+Example:
 
-# Or with pnpm:
-rm -rf node_modules pnpm-lock.yaml
-pnpm store prune
-pnpm install
+```env
+DATABASE_URL=your_database_url
+NEXT_PUBLIC_APP_URL=your_app_url
 ```
 
-</details>
-
-<details>
-<summary><strong>❌ Environment variables not working</strong></summary>
-
-**Solution:**
-
-- Ensure `.env` file is in the root directory
-- Restart the development server after changing `.env`
-- Check that variables starting with `NEXT_PUBLIC_` are used for client-side code
-- Server-side variables should NOT start with `NEXT_PUBLIC_`
-
-</details>
-
-<details>
-<summary><strong>❌ Images not loading</strong></summary>
-
-**Solution:**
-
-- Verify images are in the `public/` directory
-- Use paths starting with `/` (e.g., `/profile.png`)
-- Check image file extensions match the code
-- Ensure image files are committed to your repository
-
-</details>
-
-<details>
-<summary><strong>❌ Contact form not sending emails</strong></summary>
-
-**Solution:**
-
-- Verify Gmail App Password is correct (16 characters)
-- Check that 2-Step Verification is enabled on your Google account
-- Ensure `EMAIL_ADDRESS` matches the Gmail account
-- Test Telegram bot token and chat ID separately
-- Check browser console for error messages
-
-</details>
+Do not commit sensitive credentials, API keys or passwords to GitHub.
 
 ---
 
-## Contributing :handshake:
+## 🚀 Deployment
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit changes: `git commit -m 'Add some AmazingFeature'`
-4. Push to branch: `git push origin feature/AmazingFeature`
-5. Open a Pull Request
+This project is deployed using **Vercel**.
 
----
+### Deployment Process
 
-## License :page_with_curl:
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+1. Push the project to GitHub.
+2. Connect the repository to Vercel.
+3. Configure required environment variables.
+4. Deploy the project.
+5. Vercel automatically creates deployments when changes are pushed to the connected repository.
 
 ---
 
-## Support :coffee:
+## 📁 Project Structure
 
-- ⭐ [Star the repository](https://github.com/said7388/developer-portfolio/stargazers)
-- � [Report bugs](https://github.com/said7388/developer-portfolio/issues)
-- � [Suggest features](https://github.com/said7388/developer-portfolio/discussions)
+```text
+portfolio/
+│
+├── public/
+│   ├── images/
+│   └── assets/
+│
+├── app/
+│   ├── components/
+│   ├── pages/
+│   └── ...
+│
+├── components/
+│
+├── utils/
+│
+├── package.json
+├── README.md
+└── ...
+```
 
 ---
 
-![GitHub stars](https://img.shields.io/github/stars/said7388/developer-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/said7388/developer-portfolio?style=social)
-![GitHub issues](https://img.shields.io/github/issues/said7388/developer-portfolio)
-![GitHub license](https://img.shields.io/github/license/said7388/developer-portfolio)
+## 📬 Connect With Me
+
+<p align="center">
+
+<a href="https://github.com/Salonijibhe">
+  <strong>GitHub</strong>
+</a>
+  •  
+<a href="https://www.linkedin.com/in/saloni-jibhe-4ba562260/">
+  <strong>LinkedIn</strong>
+</a>
+
+</p>
+
+---
+
+## ⭐ Support
+
+If you find this portfolio useful or interesting, feel free to ⭐ the repository.
+
+---
+
+<p align="center">
+  <strong>Made with ❤️ by Saloni Jibhe</strong>
+</p>
